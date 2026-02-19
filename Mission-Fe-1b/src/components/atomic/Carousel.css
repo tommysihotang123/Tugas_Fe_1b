@@ -1,0 +1,15 @@
+.embla {
+  width: 100%;
+  position: relative;
+  /* overflow: visible; */
+}
+.embla__viewport {
+  /* display: flex;
+  overflow-x: auto; */
+  overflow-y: hidden;
+  /* scroll-snap-type: x mandatory; */
+}
+.embla-container {
+  display: flex;
+  gap: 1rem;
+}

@@ -1,0 +1,20 @@
+.card.top-rating {
+  flex: 1 0 95px;
+  scroll-snap-align: center;
+}
+.card__top-rating-img {
+  width: 100%;
+  min-height: 145px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (min-width: 768px) {
+  .card.top-rating {
+    flex: 1 0 234px;
+    max-width: 234px;
+  }
+  .card__top-rating-img {
+    min-height: 365px;
+  }
+}

@@ -1,0 +1,26 @@
+.card.top-rating {
+  flex: 1 0 95px;
+  scroll-snap-align: center;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+.card__top-rating-img {
+  width: 100%;
+  min-height: 145px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card.top-rating:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+@media (min-width: 768px) {
+  .card.top-rating {
+    flex: 1 0 234px;
+    max-width: 234px;
+  }
+  .card__top-rating-img {
+    min-height: 365px;
+  }
+}
